@@ -1,7 +1,7 @@
 # ph-money-count
 Generates a report that tells the count of each denomination.
 
-# Usage
+## Usage
 ```
 --help
 ```
@@ -15,8 +15,8 @@ to get the count of each denomination.
 ```
 To run unit tests
 
-# Build
-## Using cmake
+## Build
+### Using cmake
 1. Generate cmake files
 ```
 cmake ./
@@ -27,7 +27,7 @@ cmake ./
 make
 ```
 
-## Using gcc
+### Using gcc
 1. Compile all source files
 ```
 gcc main.c ph-input.c ph-denomination.c test.c
