@@ -14,7 +14,7 @@ report add the total amount which should be equal to the amount withdrawn by the
 
 Program Arguments:
 --help for list of commands
---denomination [number] to get denomination from amount
+--denomination [amount] to get count of denomination from amount
 --test to run unit tests
 */
 
@@ -61,7 +61,7 @@ int main(int argc, char* argv[])
 		if (strcmp(arg, "--help") == 0)
 		{
 			printf("List of Commands:\n"
-					"--denomination [number] \n"
+					"--denomination [amount] \n"
 					"--test");
 		}
 		else if (strcmp(arg, "--denomination") == 0)
@@ -69,7 +69,7 @@ int main(int argc, char* argv[])
 			// For retrieving denominations from amount given in argument
 			if (i + 1 > argc)
 			{
-				fprintf(stderr, "Argument too short, proper command is --denomination [number]\n");
+				fprintf(stderr, "Argument too short, proper command is --denomination [amount]\n");
 				errno = EINVAL;
 				return 1;
 			}
