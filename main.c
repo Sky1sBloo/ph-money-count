@@ -62,7 +62,7 @@ int main(int argc, char* argv[])
 		{
 			printf("List of Commands:\n"
 					"--denomination [amount] \n"
-					"--test");
+					"--test\n");
 		}
 		else if (strcmp(arg, "--denomination") == 0)
 		{
