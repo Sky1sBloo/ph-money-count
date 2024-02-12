@@ -61,4 +61,3 @@ void printDenomination(const PHCashDenomination* denomination)
 	printf("==============\nPHP %d.%d\n", denomination->totalPesos, denomination->totalCentavos);
 }
 
-

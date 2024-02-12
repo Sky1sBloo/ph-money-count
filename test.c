@@ -3,6 +3,9 @@
 #include "ph-input.h"
 #include "ph-denomination.h"
 
+/**
+ * Tests all input functions
+ */
 bool TEST_PH_INPUT()
 {
 	char testA[][50] = {"9872", "12A3.f", "123.2f", "94321234121.21", "123.123", "0.21"};
@@ -41,6 +44,9 @@ bool TEST_PH_INPUT()
 	return true;
 }
 
+/**
+ * Tests all ph denomination functions
+ */
 bool TEST_PH_DENOMINATION()
 {
 	int testPesos = 1024;

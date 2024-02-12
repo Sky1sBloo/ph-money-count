@@ -94,5 +94,6 @@ int main(int argc, char* argv[])
 			printf("Type --help for list of commands\n");
 			return 0;
 		}
-	} }
+	} 
+}
 
